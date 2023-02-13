@@ -23,7 +23,7 @@ def config():
 
 def dain_preparation():
     os.chdir(DAIN_PREFIX)
-
+    print("Downloading DAIN model weights...")
     my_package_dir = os.path.join(DAIN_PREFIX, "my_package")
     nvidia_pwcnet_dir = os.path.join(
         DAIN_PREFIX, "PWCNet/correlation_package_pytorch1_0"
@@ -38,3 +38,4 @@ def dain_preparation():
     os.makedirs(model_weights_dir)
     os.chdir(model_weights_dir)
     downloader(external_links["dain-best-model"], "best.pth")
+    print("Done.")
