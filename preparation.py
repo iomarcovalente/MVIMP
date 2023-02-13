@@ -4,21 +4,8 @@ import argparse
 
 # version 0907
 external_links = {
-    # AnimeGANv1
-    "animeganv1-pretrain-model": "https://www.dropbox.com/s/063uot56vfreeli/0907-Haoyao-style.zip",
-    "animeganv1-vgg-weights": "https://www.dropbox.com/s/qkmlp88zbizz24b/0907-vgg19.npy",
     # DAIN
     "dain-best-model": "https://www.dropbox.com/s/yw7qw5ygrvixinc/0907-best.pth",
-    # photo_inpainting_3d
-    "3d-photo-inpainting-color-model": "https://www.dropbox.com/s/xncj03jiafx7yep/0907-color-model.pth",
-    "3d-photo-inpainting-depth-model": "https://www.dropbox.com/s/3qymi6xpnoj7b28/0907-depth-model.pth",
-    "3d-photo-inpainting-edge-model": "https://www.dropbox.com/s/5g9d4pkw8vgptim/0907-edge-model.pth",
-    "3d-photo-inpainting-MiDaS-model": "https://www.dropbox.com/s/4njb4djtd86sk4z/0907-model.pt",
-    # deoldify
-    "deoldify-stable-model": "https://www.dropbox.com/s/mwjep3vyqk5mkjc/ColorizeStable_gen.pth",
-    "deoldify-artistic-model": "https://www.dropbox.com/s/zkehq1uwahhbc2o/ColorizeArtistic_gen.pth",
-    # waifu2x_vulkan_ncnn
-    "waifu2x-vulkan-ncnn-setup": "https://www.dropbox.com/s/hnyj19i258915lx/0907-vulkansdk-linux-x86_64-1.2.135.0.tar.gz",
 }
 
 
